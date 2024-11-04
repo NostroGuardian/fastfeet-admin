@@ -8,7 +8,8 @@
 		"build": "tsc -b && vite build",
 		"lint": "eslint .",
 		"preview": "vite preview",
-		"stylelint": "npx stylelint \"**/*.css\""
+		"stylelint": "npx stylelint \"**/*.css\"",
+		"stylelintfix": "npx stylelint \"**/*.css\" --fix"
 	},
 	"dependencies": {
 		"react": "^18.3.1",
