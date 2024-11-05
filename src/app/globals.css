@@ -1,6 +1,7 @@
 :root {
 	--layout-width: 1110px;
 
+	--background-color: #f6f6f6;
 	--primary-black: #313131;
 	--primary-black-hover: #403f3f;
 	--white: #fff;
@@ -47,6 +48,7 @@ body {
 	min-height: 100vh;
 	font-family: 'Montserrat', sans-serif;
 	line-height: 1.5;
+	background: var(--background-color);
 }
 
 main {

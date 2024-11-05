@@ -1,0 +1,26 @@
+.itemRow {
+	display: flex;
+	justify-content: space-between;
+	border-radius: 10px;
+	padding: 16px 80px;
+	width: var(--layout-width);
+	box-shadow: 0 0 0 0 rgb(0 0 0 / 10%), 0 8px 17px 0 rgb(0 0 0 / 10%),
+		0 31px 31px 0 rgb(0 0 0 / 9%), 0 71px 42px 0 rgb(0 0 0 / 5%),
+		0 126px 50px 0 rgb(0 0 0 / 1%), 0 197px 55px 0 rgb(0 0 0 / 0%);
+	background: var(--white);
+}
+
+.title {
+	font-weight: 500;
+	font-size: 24px;
+	letter-spacing: 0.05em;
+	color: var(--primary);
+}
+
+.article,
+.amount {
+	font-weight: 500;
+	font-size: 24px;
+	letter-spacing: 0.05em;
+	color: #7d7d7d;
+}
