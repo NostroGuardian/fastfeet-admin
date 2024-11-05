@@ -2,6 +2,9 @@
 	"extends": ["stylelint-config-standard"],
 	"plugins": ["stylelint-order"],
 	"rules": {
+		"font-family-name-quotes": "always-unless-keyword",
+		"custom-property-empty-line-before": null,
+		"selector-class-pattern": "^([a-z][a-zA-Z0-9]*)$",
 		"order/order": ["custom-properties", "dollar-variables", "at-rules"],
 		"order/properties-alphabetical-order": null,
 		"order/properties-order": [
@@ -376,8 +379,6 @@
 			{
 				"unspecified": "bottomAlphabetical"
 			}
-		],
-		"font-family-name-quotes": "always-unless-keyword",
-		"custom-property-empty-line-before": null
+		]
 	}
 }
