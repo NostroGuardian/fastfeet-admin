@@ -1,4 +1,4 @@
-import { Button } from 'shared/ui';
+import { Button, Logo } from 'shared/ui';
 
 import { ItemRow } from './ItemRow/ItemRow';
 
@@ -8,6 +8,7 @@ export const Home = () => {
 			HOME PAGE
 			<Button>Добавить</Button>
 			<ItemRow article="523672" title="Крутые кросы" amount={10} />
+			<Logo appearance="small" />
 		</>
 	);
 };
